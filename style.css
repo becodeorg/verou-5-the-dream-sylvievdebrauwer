@@ -41,9 +41,15 @@ input {
     border-radius: 4px;
 }
 
+.currency-selection {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
 button {
     width: 30%;
     margin: 0 auto;
+    margin-top: 20px;
     background-color: #dca135;
     color: #fff;
     padding: 10px;
@@ -53,6 +59,17 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #bf8c2e;
 }
 
+.conversion-result {
+    font-size: 24px;
+    color: #9b1313;
+    margin-top: 20px;
+}
+
+.converted-amount {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}

@@ -11,6 +11,15 @@
     <form action="./convert.php" method="post">
       <label for="localRate">Local Currency Rate:</label>
       <input type="text" id="localRate" name="localRate" required />
+
+      <div class="currency-selection">
+        <label for="currencyType">Choose Currency:</label>
+        <select id="currencyType" name="currencyType">
+          <option value="euro">euro</option>
+          <option value="dollar">dollar</option>
+        </select>
+      </div>
+
       <button type="submit">Convert to Euros</button>
     </form>
   </body>
